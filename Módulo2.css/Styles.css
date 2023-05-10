@@ -1,0 +1,35 @@
+
+#titulo {
+    color: violet;
+    font-size: 20px;
+    background: rgb(54, 45, 82);
+}
+
+.texto {
+    color: brown;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button {
+    color: yellow;
+    background: blueviolet;
+}
+
+#outro-botao {
+    color: red;
+    background: black;
+}
+
+
+/*  
+
+    RGB:  
+        RED
+        GREEN
+        BLUE
+    
+    HEXADECIMAL   
+    
+    DECIMAL (base 10) => 0,1,2,3,4,5,6,7,8,9
+    HEXADECIMAL (base 16) => 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F

@@ -1,0 +1,47 @@
+<!--   FORMS   -->
+
+<h1>Digite aqui seu Endereço:</h1>
+
+
+<form action="" method="get" enctype="multipart/form-data">
+    <label>
+        Rua:
+        <input type="text" name="rua" autocomplete="street-sddress" />
+    </label>
+
+    <labbel>
+        Número:
+        <input type="number" name="numero" />
+    </labbel>
+
+    <labbel>
+        Email:
+        <input type="email" name="email" />
+    </labbel>
+
+    <labbel>
+        Foto:
+        <input type="file" name="arquivo" />
+    </labbel>
+
+    <button type="reset">Reset</button>
+    <button type="submit">Enviar Dados</button>
+</form>
+
+
+
+
+
+<!--  FORMS   
+    - Capturar dados de entrada 
+    - Input -> Entrada 
+      Action -> Define para qual url será enviado os dados, vázio 
+                envia para mesma url Method
+        - Get = Comunicação por meio da url
+        - POST = Envia os dados por deibaixo de panos
+     -->
+<!-- (button) = Botão para enviar dados
+    (action) = Pra onde vai ser mandado o arquivo
+    (method) = Método de envio
+    (button type reset) = Reseta os campos 
+(enctype "multipart/form-data") = Avisa ao servidor que esta vinso arquivos alem de dados -->

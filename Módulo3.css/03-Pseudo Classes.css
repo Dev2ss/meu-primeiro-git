@@ -1,0 +1,71 @@
+
+/* PSEUDO CLASSES
+    :active ->  Quando o elemnto esta ativo, ou seja, está sendo pressionado
+    :visited -> Seleciona o link que foi visitado
+    :hover -> Quando o mouse passa em cima do elemento
+    :checked -> Usado em radio / checkbox / select
+    :disabled -> Elemento desabilitado / button / input
+    :enabled -> Elemento esta habilitado
+    :focus -> É aplicada quando um elemento recebe foco, o que pode ocorrer quando o usuário seleciona o elemento
+    :read-only -> Seleciona input ou textarea que são apenas leituras
+    :empty -> Elemento que não tem filho
+
+    :first-child -> Primeiro filho / ex: primeira Li de uma Ul / primeiro Span de uma Div
+    :first-of-type -> Primeiro elemento de seu tipo entre os filhos de seu elemento pai
+    :last-child -> Ultimo filho
+    :last-of-type -> Ultimo elemento de seu tipo entre os filhos de seu elemento pai
+    :not() -> Estiliza os elementos exceto o que esta dentro do ()
+    :nth-child -> Seleciona o elemento baseado na sua posição. Ex: :nth-child(3)
+    :nth-last-child -> Seleciona o elemento baseado na sua posição, contando de tras para frente
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li:first-child {
+    color: red;
+}
+
+
+.container :not(p) {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*a:hover {
+    color: red;
+}
+
+p:hover {
+    color: blue;
+}
+
+input:checked {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+}
+
+.container:empty {
+    background: blue;
+} */
